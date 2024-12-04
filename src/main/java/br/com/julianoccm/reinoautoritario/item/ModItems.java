@@ -15,6 +15,7 @@ public class ModItems {
     // Tab Icons
     public static final RegistryObject<Item> CROWN_POKEBALL = ITEMS.register("crown_pokeball",
             () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> CROWN = ITEMS.register("crown",
             () -> new Item(new Item.Properties()));
 
@@ -27,6 +28,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> INSIGNIA_TERRA = ITEMS.register("insignia_terra",
         () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
+    public static final RegistryObject<Item> INSIGNIA_AGUA = ITEMS.register("insignia_agua",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
