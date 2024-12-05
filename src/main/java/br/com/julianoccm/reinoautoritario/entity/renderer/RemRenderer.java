@@ -1,13 +1,13 @@
-package br.com.julianoccm.reinoautoritario.entity.model.renderer;
+package br.com.julianoccm.reinoautoritario.entity.renderer;
 
 import br.com.julianoccm.reinoautoritario.ReinoAutoritarioMod;
+import br.com.julianoccm.reinoautoritario.entity.custom.NPCMobEntity;
 import br.com.julianoccm.reinoautoritario.entity.model.NPCModel;
-import br.com.julianoccm.reinoautoritario.entity.model.custom.RemEntity;
 import net.minecraft.client.renderer.entity.EntityRendererManager;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.util.ResourceLocation;
 
-public class RemRenderer extends MobRenderer<RemEntity, NPCModel<RemEntity>> {
+public class RemRenderer extends MobRenderer<NPCMobEntity, NPCModel<NPCMobEntity>> {
 
     public static final ResourceLocation TEXTURE = new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "textures/entity/rem.png");
 
@@ -16,7 +16,7 @@ public class RemRenderer extends MobRenderer<RemEntity, NPCModel<RemEntity>> {
     }
 
     @Override
-    public ResourceLocation getTextureLocation(RemEntity remEntity) {
+    public ResourceLocation getTextureLocation(NPCMobEntity NPCMobEntity) {
         return TEXTURE;
     }
 }

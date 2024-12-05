@@ -1,7 +1,7 @@
 package br.com.julianoccm.reinoautoritario;
 
+import br.com.julianoccm.reinoautoritario.entity.custom.NPCMobEntity;
 import br.com.julianoccm.reinoautoritario.entity.ModEntityTypes;
-import br.com.julianoccm.reinoautoritario.entity.model.custom.RemEntity;
 import br.com.julianoccm.reinoautoritario.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
@@ -47,7 +47,7 @@ public class ReinoAutoritarioMod {
         LOGGER.info("PREINIT: REINO AUTORITARIO");
 
         DeferredWorkQueue.runLater(() -> {
-            GlobalEntityTypeAttributes.put(ModEntityTypes.REM_ENTITY.get(), RemEntity.setAttributes().build());
+            GlobalEntityTypeAttributes.put(ModEntityTypes.REM_ENTITY.get(), NPCMobEntity.setAttributes().build());
         });
     }
 

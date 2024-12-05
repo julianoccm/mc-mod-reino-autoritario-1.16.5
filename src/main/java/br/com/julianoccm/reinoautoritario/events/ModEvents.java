@@ -2,7 +2,7 @@ package br.com.julianoccm.reinoautoritario.events;
 
 import br.com.julianoccm.reinoautoritario.ReinoAutoritarioMod;
 import br.com.julianoccm.reinoautoritario.entity.ModEntityTypes;
-import br.com.julianoccm.reinoautoritario.entity.model.renderer.RemRenderer;
+import br.com.julianoccm.reinoautoritario.entity.renderer.RemRenderer;
 import br.com.julianoccm.reinoautoritario.item.ModSpawnEggItem;
 import net.minecraft.entity.EntityType;
 import net.minecraftforge.api.distmarker.Dist;
