@@ -35,6 +35,9 @@ public class ModItems {
     public static final RegistryObject<Item> INSIGNIA_INSETO = ITEMS.register("pixelmon/insignia_inseto",
             () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
 
+    public static final RegistryObject<Item> INSIGNIA_FANSTASMA = ITEMS.register("pixelmon/insignia_fantasma",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
     // Mobs Eggs
     public static final RegistryObject<ModSpawnEggItem> REM_SPAWN_EGG = ITEMS.register("mobs/rem_spawn_egg",
             () -> new ModSpawnEggItem(ModEntityTypes.REM_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
