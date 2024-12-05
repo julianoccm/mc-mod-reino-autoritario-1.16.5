@@ -12,5 +12,11 @@
   "item.reinoautoritario.pixelmon.insignia_terra": "Insígnia Terra",
   "item.reinoautoritario.pixelmon.insignia_agua": "Insígnia Água",
 
-  "item.reinoautoritario.mobs.rem_spawn_egg": "Ovo de Rem"
+  "item.reinoautoritario.mobs.rem_spawn_egg": "Spawn de Rem",
+  "item.reinoautoritario.mobs.elf_archer_spawn_egg": "Spawn de Arqueira Elfa",
+  "item.reinoautoritario.mobs.goblin_slayer_spawn_egg": "Spawn de Goblin Slayer",
+  "item.reinoautoritario.mobs.gold_spawn_egg": "Spawn de Gold",
+  "item.reinoautoritario.mobs.red_spawn_egg": "Spawn de Red",
+  "item.reinoautoritario.mobs.misty_spawn_egg": "Spawn de Misty",
+  "item.reinoautoritario.mobs.ram_spawn_egg": "Spawn de Ram"
 }
