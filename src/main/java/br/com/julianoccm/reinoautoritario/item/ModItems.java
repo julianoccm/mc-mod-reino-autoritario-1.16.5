@@ -41,6 +41,26 @@ public class ModItems {
             () -> new ModSpawnEggItem(ModEntityTypes.RAM_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
                     .stacksTo(64)));
 
+    public static final RegistryObject<ModSpawnEggItem> GOBLIN_SLAYER_SPAWN_EGG = ITEMS.register("mobs/goblin_slayer_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.GOBLIN_SLAYER_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
+                    .stacksTo(64)));
+
+    public static final RegistryObject<ModSpawnEggItem> ELF_ARCHER_SPAWN_EGG = ITEMS.register("mobs/elf_archer_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.ELF_ACHER_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
+                    .stacksTo(64)));
+
+    public static final RegistryObject<ModSpawnEggItem> GOLD_SPAWN_EGG = ITEMS.register("mobs/gold_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.GOLD_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
+                    .stacksTo(64)));
+
+    public static final RegistryObject<ModSpawnEggItem> RED_SPAWN_EGG = ITEMS.register("mobs/red_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.RED_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
+                    .stacksTo(64)));
+
+    public static final RegistryObject<ModSpawnEggItem> MISTY_SPAWN_EGG = ITEMS.register("mobs/misty_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.MISTY_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
+                    .stacksTo(64)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
