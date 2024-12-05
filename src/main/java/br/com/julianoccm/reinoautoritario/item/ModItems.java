@@ -14,28 +14,28 @@ public class ModItems {
             = DeferredRegister.create(ForgeRegistries.ITEMS, ReinoAutoritarioMod.MOD_ID);
 
     // Tab Icons
-    public static final RegistryObject<Item> CROWN_POKEBALL = ITEMS.register("crown_pokeball",
+    public static final RegistryObject<Item> CROWN_POKEBALL = ITEMS.register("icons/crown_pokeball",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> CROWN_EGG = ITEMS.register("crown_egg",
+    public static final RegistryObject<Item> CROWN_EGG = ITEMS.register("icons/crown_egg",
             () -> new Item(new Item.Properties()));
 
     // Insignias
-    public static final RegistryObject<Item> INSIGNIA_SHINY = ITEMS.register("insignia_shiny",
+    public static final RegistryObject<Item> INSIGNIA_SHINY = ITEMS.register("pixelmon/insignia_shiny",
             () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
 
-    public static final RegistryObject<Item> INSIGNIA_VENENO = ITEMS.register("insignia_veneno",
+    public static final RegistryObject<Item> INSIGNIA_VENENO = ITEMS.register("pixelmon/insignia_veneno",
             () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
 
-    public static final RegistryObject<Item> INSIGNIA_TERRA = ITEMS.register("insignia_terra",
+    public static final RegistryObject<Item> INSIGNIA_TERRA = ITEMS.register("pixelmon/insignia_terra",
             () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
 
-    public static final RegistryObject<Item> INSIGNIA_AGUA = ITEMS.register("insignia_agua",
+    public static final RegistryObject<Item> INSIGNIA_AGUA = ITEMS.register("pixelmon/insignia_agua",
             () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
 
     // Mobs Eggs
-    public static final RegistryObject<ModSpawnEggItem> REM_SPAWN_EGG = ITEMS.register("rem_spawn_egg",
-            () -> new ModSpawnEggItem(ModEntityTypes.REM_ENTITY, 0x464F56, 0x3570AE,
-                    new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS).stacksTo(64)));
+    public static final RegistryObject<ModSpawnEggItem> REM_SPAWN_EGG = ITEMS.register("mobs/rem_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.REM_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
+                    .stacksTo(64)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

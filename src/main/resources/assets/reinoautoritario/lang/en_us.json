@@ -3,13 +3,14 @@
   "itemGroup.reinoAutoritarioPixelmon": "Reino Autoritário - Pixelmon",
   "itemGroup.reinoAutoritarioEggs": "Reino Autoritário - Mobs",
 
-  "item.reinoautoritario.crown": "Coroa",
-  "item.reinoautoritario.crown_pokeball": "Coroa Pokebola",
+  "item.reinoautoritario.icons.crown": "Coroa",
+  "item.reinoautoritario.icons.crown_pokeball": "Coroa Pokebola",
+  "item.reinoautoritario.icons.crown_egg": "Coroa Spawns",
 
-  "item.reinoautoritario.insignia_shiny": "Insígnia Shiny",
-  "item.reinoautoritario.insignia_veneno": "Insígnia Veneno",
-  "item.reinoautoritario.insignia_terra": "Insígnia Terra",
-  "item.reinoautoritario.insignia_agua": "Insígnia Água",
+  "item.reinoautoritario.pixelmon.insignia_shiny": "Insígnia Shiny",
+  "item.reinoautoritario.pixelmon.insignia_veneno": "Insígnia Veneno",
+  "item.reinoautoritario.pixelmon.insignia_terra": "Insígnia Terra",
+  "item.reinoautoritario.pixelmon.insignia_agua": "Insígnia Água",
 
-  "item.reinoautoritario.rem_spawn_egg": "Spawn de Rem"
+  "item.reinoautoritario.mobs.rem_spawn_egg": "Ovo de Rem"
 }

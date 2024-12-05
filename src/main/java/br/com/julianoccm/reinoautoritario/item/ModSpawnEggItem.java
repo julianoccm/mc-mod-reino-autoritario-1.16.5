@@ -20,8 +20,8 @@ public class ModSpawnEggItem extends SpawnEggItem {
     protected static final List<ModSpawnEggItem> UNADDED_EGGS = new ArrayList<>();
     private final Lazy<? extends EntityType<?>> entityTypeSupplier;
 
-    public ModSpawnEggItem(final RegistryObject<? extends EntityType<?>> entityTypeSupplier, int primaryColorIn, int secondaryColorIn, Properties builder) {
-        super(null, primaryColorIn, secondaryColorIn, builder);
+    public ModSpawnEggItem(final RegistryObject<? extends EntityType<?>> entityTypeSupplier, Properties builder) {
+        super(null, 0xFFF, 0XFFF, builder);
         this.entityTypeSupplier = Lazy.of(entityTypeSupplier::get);
         UNADDED_EGGS.add(this);
     }
