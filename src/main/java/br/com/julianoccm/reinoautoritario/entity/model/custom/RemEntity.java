@@ -12,7 +12,7 @@ public class RemEntity extends MobEntity {
     }
 
     public static AttributeModifierMap.MutableAttribute setAttributes() {
-        return MobEntity.createMobAttributes().add(Attributes.MAX_HEALTH, 20.0f);
+        return MobEntity.createMobAttributes().add(Attributes.MAX_HEALTH, 5.0f);
     }
 
     @Override

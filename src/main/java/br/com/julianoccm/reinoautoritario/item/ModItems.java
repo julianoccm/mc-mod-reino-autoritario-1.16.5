@@ -1,6 +1,7 @@
 package br.com.julianoccm.reinoautoritario.item;
 
 import br.com.julianoccm.reinoautoritario.ReinoAutoritarioMod;
+import br.com.julianoccm.reinoautoritario.entity.ModEntityTypes;
 import net.minecraft.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
@@ -15,22 +16,26 @@ public class ModItems {
     // Tab Icons
     public static final RegistryObject<Item> CROWN_POKEBALL = ITEMS.register("crown_pokeball",
             () -> new Item(new Item.Properties()));
-
-    public static final RegistryObject<Item> CROWN = ITEMS.register("crown",
+    public static final RegistryObject<Item> CROWN_EGG = ITEMS.register("crown_egg",
             () -> new Item(new Item.Properties()));
 
     // Insignias
     public static final RegistryObject<Item> INSIGNIA_SHINY = ITEMS.register("insignia_shiny",
-        () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
 
     public static final RegistryObject<Item> INSIGNIA_VENENO = ITEMS.register("insignia_veneno",
-        () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
 
     public static final RegistryObject<Item> INSIGNIA_TERRA = ITEMS.register("insignia_terra",
-        () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
 
     public static final RegistryObject<Item> INSIGNIA_AGUA = ITEMS.register("insignia_agua",
             () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
+    // Mobs Eggs
+    public static final RegistryObject<ModSpawnEggItem> REM_SPAWN_EGG = ITEMS.register("rem_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.REM_ENTITY, 0x464F56, 0x3570AE,
+                    new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS).stacksTo(64)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

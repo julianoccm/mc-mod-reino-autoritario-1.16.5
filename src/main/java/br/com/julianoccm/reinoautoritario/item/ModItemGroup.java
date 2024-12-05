@@ -11,4 +11,11 @@ public class ModItemGroup {
             return new ItemStack(ModItems.CROWN_POKEBALL.get());
         }
     };
+
+    public static final ItemGroup REINO_AUTORITARIO_MOBS = new ItemGroup("reinoAutoritarioEggs") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.CROWN_EGG.get());
+        }
+    };
 }
