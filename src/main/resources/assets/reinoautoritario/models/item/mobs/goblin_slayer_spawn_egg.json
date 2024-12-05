@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "reinoautoritario:item/mobs/goblin_slayer_spawn_egg"
+  }
+}
