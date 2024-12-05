@@ -37,6 +37,10 @@ public class ModItems {
             () -> new ModSpawnEggItem(ModEntityTypes.REM_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
                     .stacksTo(64)));
 
+    public static final RegistryObject<ModSpawnEggItem> RAM_SPAWN_EGG = ITEMS.register("mobs/ram_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.RAM_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
+                    .stacksTo(64)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
