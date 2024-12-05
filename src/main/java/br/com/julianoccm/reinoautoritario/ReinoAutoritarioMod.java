@@ -1,11 +1,15 @@
 package br.com.julianoccm.reinoautoritario;
 
+import br.com.julianoccm.reinoautoritario.entity.ModEntityTypes;
+import br.com.julianoccm.reinoautoritario.entity.model.custom.RemEntity;
 import br.com.julianoccm.reinoautoritario.item.ModItems;
 import net.minecraft.block.Block;
+import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -28,6 +32,8 @@ public class ReinoAutoritarioMod {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModEntityTypes.register(eventBus);
+
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::enqueueIMC);
@@ -39,6 +45,10 @@ public class ReinoAutoritarioMod {
 
     private void setup(final FMLCommonSetupEvent event) {
         LOGGER.info("PREINIT: REINO AUTORITARIO");
+
+        DeferredWorkQueue.runLater(() -> {
+            GlobalEntityTypeAttributes.put(ModEntityTypes.REM_ENTITY.get(), RemEntity.setAttributes().build());
+        });
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {}
