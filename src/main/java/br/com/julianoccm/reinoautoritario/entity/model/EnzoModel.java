@@ -1,9 +1,15 @@
-// Made with Blockbench 4.11.2
+package br.com.julianoccm.reinoautoritario.entity.model;// Made with Blockbench 4.11.2
 // Exported for Minecraft version 1.15 - 1.16 with Mojang mappings
 // Paste this class into your mod and generate all required imports
 
 
-public class EnzoModel extends EntityModel<Entity> {
+import com.mojang.blaze3d.matrix.MatrixStack;
+import com.mojang.blaze3d.vertex.IVertexBuilder;
+import net.minecraft.client.renderer.entity.model.EntityModel;
+import net.minecraft.client.renderer.model.ModelRenderer;
+import net.minecraft.entity.Entity;
+
+public class EnzoModel<T extends Entity> extends EntityModel<T> {
 	private final ModelRenderer LeftLeg;
 	private final ModelRenderer RigthLeg;
 	private final ModelRenderer Body;
