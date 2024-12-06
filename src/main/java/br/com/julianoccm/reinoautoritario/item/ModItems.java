@@ -260,6 +260,10 @@ public class ModItems {
             () -> new ModSpawnEggItem(ModEntityTypes.GROOT_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
                     .stacksTo(64)));
 
+    public static final RegistryObject<ModSpawnEggItem> ENZO_SPAWN_EGG = ITEMS.register("mobs/enzo_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.ENZO_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
+                    .stacksTo(64)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

@@ -242,6 +242,9 @@ public class ModEntityTypes {
             () -> EntityType.Builder.of(GrootEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
                     .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "groot_entity").toString()));
 
+    public static final RegistryObject<EntityType<EnzoEntity>> ENZO_ENTITY = ENTITY_TYPES.register("enzo_entity",
+            () -> EntityType.Builder.of(EnzoEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
+                    .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "enzo_entity").toString()));
 
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);

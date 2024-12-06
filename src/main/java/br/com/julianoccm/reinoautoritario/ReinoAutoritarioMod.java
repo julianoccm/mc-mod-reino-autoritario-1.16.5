@@ -102,6 +102,7 @@ public class ReinoAutoritarioMod {
             GlobalEntityTypeAttributes.put(ModEntityTypes.NEEKO_ENTITY.get(), NeekoEntity.setAttributes().build());
             GlobalEntityTypeAttributes.put(ModEntityTypes.SUPERGIRL_ENTITY.get(), SupergirlEntity.setAttributes().build());
             GlobalEntityTypeAttributes.put(ModEntityTypes.GROOT_ENTITY.get(), GrootEntity.setAttributes().build());
+            GlobalEntityTypeAttributes.put(ModEntityTypes.ENZO_ENTITY.get(), EnzoEntity.setAttributes().build());
 
         });
     }

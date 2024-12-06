@@ -72,6 +72,7 @@ public class ModEvents {
         RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.NEEKO_ENTITY.get(), NeekoRenderer::new);
         RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.SUPERGIRL_ENTITY.get(), SupergirlRenderer::new);
         RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.GROOT_ENTITY.get(), GrootRenderer::new);
+        RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.ENZO_ENTITY.get(), EnzoRenderer::new);
 
     }
 
