@@ -182,9 +182,9 @@ public class ModItems {
             () -> new ModSpawnEggItem(ModEntityTypes.JINX_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
                     .stacksTo(64)));
 
-    public static final RegistryObject<ModSpawnEggItem> DATH_VADER_SPAWN_EGG = ITEMS.register("mobs/dath_vader_spawn_egg",
-            () -> new ModSpawnEggItem(ModEntityTypes.DATH_VADER_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
-                    .stacksTo(64)));
+//    public static final RegistryObject<ModSpawnEggItem> DATH_VADER_SPAWN_EGG = ITEMS.register("mobs/dath_vader_spawn_egg",
+//            () -> new ModSpawnEggItem(ModEntityTypes.DATH_VADER_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
+//                    .stacksTo(64)));
 
     public static final RegistryObject<ModSpawnEggItem> JINN_SPAWN_EGG = ITEMS.register("mobs/jinn_spawn_egg",
             () -> new ModSpawnEggItem(ModEntityTypes.JINN_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
@@ -194,21 +194,21 @@ public class ModItems {
             () -> new ModSpawnEggItem(ModEntityTypes.NARUTO_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
                     .stacksTo(64)));
 
-    public static final RegistryObject<ModSpawnEggItem> HOMEM_ARANHA_SPAWN_EGG = ITEMS.register("mobs/homem_aranha_spawn_egg",
-            () -> new ModSpawnEggItem(ModEntityTypes.HOMEM_ARANHA_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
-                    .stacksTo(64)));
+//    public static final RegistryObject<ModSpawnEggItem> HOMEM_ARANHA_SPAWN_EGG = ITEMS.register("mobs/homem_aranha_spawn_egg",
+//            () -> new ModSpawnEggItem(ModEntityTypes.HOMEM_ARANHA_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
+//                    .stacksTo(64)));
 
-    public static final RegistryObject<ModSpawnEggItem> STORMTROOPER_SPAWN_EGG = ITEMS.register("mobs/stormtrooper_spawn_egg",
-            () -> new ModSpawnEggItem(ModEntityTypes.STORMTROOPER_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
-                    .stacksTo(64)));
+//    public static final RegistryObject<ModSpawnEggItem> STORMTROOPER_SPAWN_EGG = ITEMS.register("mobs/stormtrooper_spawn_egg",
+//            () -> new ModSpawnEggItem(ModEntityTypes.STORMTROOPER_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
+//                    .stacksTo(64)));
 
     public static final RegistryObject<ModSpawnEggItem> MEGUMIN_SPAWN_EGG = ITEMS.register("mobs/megumin_spawn_egg",
             () -> new ModSpawnEggItem(ModEntityTypes.MEGUMIN_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
                     .stacksTo(64)));
 
-    public static final RegistryObject<ModSpawnEggItem> FIZZ_SPAWN_EGG = ITEMS.register("mobs/fizz_spawn_egg",
-            () -> new ModSpawnEggItem(ModEntityTypes.FIZZ_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
-                    .stacksTo(64)));
+//    public static final RegistryObject<ModSpawnEggItem> FIZZ_SPAWN_EGG = ITEMS.register("mobs/fizz_spawn_egg",
+//            () -> new ModSpawnEggItem(ModEntityTypes.FIZZ_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
+//                    .stacksTo(64)));
 
     public static final RegistryObject<ModSpawnEggItem> LET_ME_SOLO_HER_SPAWN_EGG = ITEMS.register("mobs/let_me_solo_her_spawn_egg",
             () -> new ModSpawnEggItem(ModEntityTypes.LET_ME_SOLO_HER_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
@@ -222,9 +222,9 @@ public class ModItems {
             () -> new ModSpawnEggItem(ModEntityTypes.ZENITSU_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
                     .stacksTo(64)));
 
-    public static final RegistryObject<ModSpawnEggItem> HOMEM_DE_FERO_SPAWN_EGG = ITEMS.register("mobs/homem_de_fero_spawn_egg",
-            () -> new ModSpawnEggItem(ModEntityTypes.HOMEM_DE_FERO_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
-                    .stacksTo(64)));
+//    public static final RegistryObject<ModSpawnEggItem> HOMEM_DE_FERO_SPAWN_EGG = ITEMS.register("mobs/homem_de_fero_spawn_egg",
+//            () -> new ModSpawnEggItem(ModEntityTypes.HOMEM_DE_FERO_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
+//                    .stacksTo(64)));
 
     public static final RegistryObject<ModSpawnEggItem> LOID_SPAWN_EGG = ITEMS.register("mobs/loid_spawn_egg",
             () -> new ModSpawnEggItem(ModEntityTypes.LOID_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
@@ -234,9 +234,9 @@ public class ModItems {
             () -> new ModSpawnEggItem(ModEntityTypes.EZ_PIRATA_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
                     .stacksTo(64)));
 
-    public static final RegistryObject<ModSpawnEggItem> GANDALF_SPAWN_EGG = ITEMS.register("mobs/gandalf_spawn_egg",
-            () -> new ModSpawnEggItem(ModEntityTypes.GANDALF_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
-                    .stacksTo(64)));
+//    public static final RegistryObject<ModSpawnEggItem> GANDALF_SPAWN_EGG = ITEMS.register("mobs/gandalf_spawn_egg",
+//            () -> new ModSpawnEggItem(ModEntityTypes.GANDALF_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
+//                    .stacksTo(64)));
 
     public static final RegistryObject<ModSpawnEggItem> TWOB_SPAWN_EGG = ITEMS.register("mobs/2b_spawn_egg",
             () -> new ModSpawnEggItem(ModEntityTypes.TWOB_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
@@ -250,9 +250,9 @@ public class ModItems {
             () -> new ModSpawnEggItem(ModEntityTypes.NAZGUL_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
                     .stacksTo(64)));
 
-    public static final RegistryObject<ModSpawnEggItem> JACK_SPARROW_SPAWN_EGG = ITEMS.register("mobs/jack_sparrow_spawn_egg",
-            () -> new ModSpawnEggItem(ModEntityTypes.JACK_SPARROW_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
-                    .stacksTo(64)));
+//    public static final RegistryObject<ModSpawnEggItem> JACK_SPARROW_SPAWN_EGG = ITEMS.register("mobs/jack_sparrow_spawn_egg",
+//            () -> new ModSpawnEggItem(ModEntityTypes.JACK_SPARROW_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
+//                    .stacksTo(64)));
 
     public static final RegistryObject<ModSpawnEggItem> ANYA_SPAWN_EGG = ITEMS.register("mobs/anya_spawn_egg",
             () -> new ModSpawnEggItem(ModEntityTypes.ANYA_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)

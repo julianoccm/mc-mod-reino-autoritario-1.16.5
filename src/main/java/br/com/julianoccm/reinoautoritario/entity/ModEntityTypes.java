@@ -121,9 +121,9 @@ public class ModEntityTypes {
             () -> EntityType.Builder.of(JinxEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
                     .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "jinx_entity").toString()));
 
-    public static final RegistryObject<EntityType<DathVaderEntity>> DATH_VADER_ENTITY = ENTITY_TYPES.register("dath_vader_entity",
-            () -> EntityType.Builder.of(DathVaderEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
-                    .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "dath_vader_entity").toString()));
+//    public static final RegistryObject<EntityType<DathVaderEntity>> DATH_VADER_ENTITY = ENTITY_TYPES.register("dath_vader_entity",
+//            () -> EntityType.Builder.of(DathVaderEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
+//                    .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "dath_vader_entity").toString()));
 
     public static final RegistryObject<EntityType<JinnEntity>> JINN_ENTITY = ENTITY_TYPES.register("jinn_entity",
             () -> EntityType.Builder.of(JinnEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
@@ -133,21 +133,21 @@ public class ModEntityTypes {
             () -> EntityType.Builder.of(NarutoEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
                     .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "naruto_entity").toString()));
 
-    public static final RegistryObject<EntityType<HomemAranhaEntity>> HOMEM_ARANHA_ENTITY = ENTITY_TYPES.register("homem_aranha_entity",
-            () -> EntityType.Builder.of(HomemAranhaEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
-                    .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "homem_aranha_entity").toString()));
+//    public static final RegistryObject<EntityType<HomemAranhaEntity>> HOMEM_ARANHA_ENTITY = ENTITY_TYPES.register("homem_aranha_entity",
+//            () -> EntityType.Builder.of(HomemAranhaEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
+//                    .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "homem_aranha_entity").toString()));
 
-    public static final RegistryObject<EntityType<StormtrooperEntity>> STORMTROOPER_ENTITY = ENTITY_TYPES.register("stormtrooper_entity",
-            () -> EntityType.Builder.of(StormtrooperEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
-                    .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "stormtrooper_entity").toString()));
+//    public static final RegistryObject<EntityType<StormtrooperEntity>> STORMTROOPER_ENTITY = ENTITY_TYPES.register("stormtrooper_entity",
+//            () -> EntityType.Builder.of(StormtrooperEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
+//                    .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "stormtrooper_entity").toString()));
 
     public static final RegistryObject<EntityType<MeguminEntity>> MEGUMIN_ENTITY = ENTITY_TYPES.register("megumin_entity",
             () -> EntityType.Builder.of(MeguminEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
                     .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "megumin_entity").toString()));
 
-    public static final RegistryObject<EntityType<FizzEntity>> FIZZ_ENTITY = ENTITY_TYPES.register("fizz_entity",
-            () -> EntityType.Builder.of(FizzEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
-                    .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "fizz_entity").toString()));
+//    public static final RegistryObject<EntityType<FizzEntity>> FIZZ_ENTITY = ENTITY_TYPES.register("fizz_entity",
+//            () -> EntityType.Builder.of(FizzEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
+//                    .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "fizz_entity").toString()));
 
     public static final RegistryObject<EntityType<LetMeSoloHerEntity>> LET_ME_SOLO_HER_ENTITY = ENTITY_TYPES.register("let_me_solo_her_entity",
             () -> EntityType.Builder.of(LetMeSoloHerEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
@@ -161,9 +161,9 @@ public class ModEntityTypes {
             () -> EntityType.Builder.of(ZenitsuEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
                     .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "zenitsu_entity").toString()));
 
-    public static final RegistryObject<EntityType<HomemDeFeroEntity>> HOMEM_DE_FERO_ENTITY = ENTITY_TYPES.register("homem_de_fero_entity",
-            () -> EntityType.Builder.of(HomemDeFeroEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
-                    .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "homem_de_fero_entity").toString()));
+//    public static final RegistryObject<EntityType<HomemDeFeroEntity>> HOMEM_DE_FERO_ENTITY = ENTITY_TYPES.register("homem_de_fero_entity",
+//            () -> EntityType.Builder.of(HomemDeFeroEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
+//                    .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "homem_de_fero_entity").toString()));
 
     public static final RegistryObject<EntityType<LoidEntity>> LOID_ENTITY = ENTITY_TYPES.register("loid_entity",
             () -> EntityType.Builder.of(LoidEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
@@ -173,9 +173,9 @@ public class ModEntityTypes {
             () -> EntityType.Builder.of(EzPirataEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
                     .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "ez_pirata_entity").toString()));
 
-    public static final RegistryObject<EntityType<GandalfEntity>> GANDALF_ENTITY = ENTITY_TYPES.register("gandalf_entity",
-            () -> EntityType.Builder.of(GandalfEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
-                    .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "gandalf_entity").toString()));
+//    public static final RegistryObject<EntityType<GandalfEntity>> GANDALF_ENTITY = ENTITY_TYPES.register("gandalf_entity",
+//            () -> EntityType.Builder.of(GandalfEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
+//                    .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "gandalf_entity").toString()));
 
     public static final RegistryObject<EntityType<TwoBEntity>> TWOB_ENTITY = ENTITY_TYPES.register("2b_entity",
             () -> EntityType.Builder.of(TwoBEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
@@ -189,9 +189,9 @@ public class ModEntityTypes {
             () -> EntityType.Builder.of(NazgulEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
                     .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "nazgul_entity").toString()));
 
-    public static final RegistryObject<EntityType<JackSparrowEntity>> JACK_SPARROW_ENTITY = ENTITY_TYPES.register("jack_sparrow_entity",
-            () -> EntityType.Builder.of(JackSparrowEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
-                    .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "jack_sparrow_entity").toString()));
+//    public static final RegistryObject<EntityType<JackSparrowEntity>> JACK_SPARROW_ENTITY = ENTITY_TYPES.register("jack_sparrow_entity",
+//            () -> EntityType.Builder.of(JackSparrowEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
+//                    .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "jack_sparrow_entity").toString()));
 
     public static final RegistryObject<EntityType<AnyaEntity>> ANYA_ENTITY = ENTITY_TYPES.register("anya_entity",
             () -> EntityType.Builder.of(AnyaEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
