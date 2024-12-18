@@ -13,7 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ModEntityTypes {
 
     public static final float NPCS_MAX_HEALTH = 20.0f;
-    public static final float LOOK_AT_GOAL_DISTANCE = 8.0f;
+    public static final float LOOK_AT_GOAL_DISTANCE = 10.0f;
 
     private static final float NPCS_SIZED_HEIGTH = 1.0f;
     private static final float NPCS_SIZED_WIDTH = 1.0f;
@@ -48,7 +48,6 @@ public class ModEntityTypes {
     public static final RegistryObject<EntityType<MistyEntity>> MISTY_ENTITY = ENTITY_TYPES.register("misty_entity",
             () -> EntityType.Builder.of(MistyEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
                     .build(new ResourceLocation(ReinoAutoritarioMod.MOD_ID, "misty_entity").toString()));
-
 
     public static final RegistryObject<EntityType<RadagonEntity>> RADAGON_ENTITY = ENTITY_TYPES.register("radagon_entity",
             () -> EntityType.Builder.of(RadagonEntity::new, EntityClassification.MONSTER).sized(NPCS_SIZED_HEIGTH, NPCS_SIZED_WIDTH)
