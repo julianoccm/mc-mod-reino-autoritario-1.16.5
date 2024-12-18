@@ -41,6 +41,45 @@ public class ModItems {
     public static final RegistryObject<Item> INSIGNIA_ALEATORIA = ITEMS.register("pixelmon/insignia_aleatoria",
             () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
 
+    public static final RegistryObject<Item> INSIGNIA_DRAGAO = ITEMS.register("pixelmon/insignia_dragao",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
+    public static final RegistryObject<Item> INSIGNIA_ELETRICO = ITEMS.register("pixelmon/insignia_eletrico",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
+    public static final RegistryObject<Item> INSIGNIA_FADA = ITEMS.register("pixelmon/insignia_fada",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
+    public static final RegistryObject<Item> INSIGNIA_FOGO = ITEMS.register("pixelmon/insignia_fogo",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
+    public static final RegistryObject<Item> INSIGNIA_GELO = ITEMS.register("pixelmon/insignia_gelo",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
+    public static final RegistryObject<Item> INSIGNIA_GRAMA = ITEMS.register("pixelmon/insignia_grama",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
+    public static final RegistryObject<Item> INSIGNIA_LUTADOR = ITEMS.register("pixelmon/insignia_lutador",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
+    public static final RegistryObject<Item> INSIGNIA_NORMAL= ITEMS.register("pixelmon/insignia_normal",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
+    public static final RegistryObject<Item> INSIGNIA_METAL = ITEMS.register("pixelmon/insignia_metal",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
+    public static final RegistryObject<Item> INSIGNIA_PEDRA = ITEMS.register("pixelmon/insignia_pedra",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
+    public static final RegistryObject<Item> INSIGNIA_PSIQUICO = ITEMS.register("pixelmon/insignia_psiquico",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
+    public static final RegistryObject<Item> INSIGNIA_SOMBRIO = ITEMS.register("pixelmon/insignia_sombrio",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
+    public static final RegistryObject<Item> INSIGNIA_VOADOR = ITEMS.register("pixelmon/insignia_voador",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_PIXELMON).stacksTo(64)));
+
     // Mobs Eggs
     public static final RegistryObject<ModSpawnEggItem> REM_SPAWN_EGG = ITEMS.register("mobs/rem_spawn_egg",
             () -> new ModSpawnEggItem(ModEntityTypes.REM_ENTITY, new Item.Properties().tab(ModItemGroup.REINO_AUTORITARIO_MOBS)
